@@ -4,7 +4,7 @@ const message = document.getElementById("message");
 let countdown;
 
 button.addEventListener("click", () => {
-    let timeLeft = 2;
+    let timeLeft = 20;
 
     button.style.display = "none";
 
