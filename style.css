@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    width: 350px;
+    height: 220px;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Arial, sans-serif;
+    transform: translateY(-10px);
+}
+
+h1 {
+    text-align: center;
+    white-space: nowrap;
+    font-size: 28px;
+    margin: 0 0 10px 0;
+}
+
+.timer {
+    font-size: 150px;
+    line-height: 1;
+}
+
+.timesup {
+    font-size: 75px;
+    line-height: 1;
+}
+
+button {
+    margin-top: 10px;
+}
